@@ -1,0 +1,15 @@
+label {
+    display: block;
+}
+
+
+/* Se aplica donde existan ambas clases en el elemento */
+
+input.ng-invalid.ng-touched,
+input.ng-invalid.ng-untouched {
+    border: 2px solid tomato;
+}
+
+input.ng-valid {
+    border: 2px solid rgb(155, 160, 148);
+}
